@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Portfoy" Class="PortfoyDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Portfoy.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="bugeceson.Properties.Settings" SettingsPropertyName="PortfoyConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.YONETICI" Member="YONETICIs">
+    <Type Name="YONETICI">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sifre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BIREYSEL_KULLANICI" Member="BIREYSEL_KULLANICIs">
+    <Type Name="BIREYSEL_KULLANICI">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="dogum_tarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sifre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KURUMSAL_KULLANICI" Member="KURUMSAL_KULLANICIs">
+    <Type Name="KURUMSAL_KULLANICI">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sirket_adresi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="kurulus_tarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sifre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KURUMSAL_PORTFOY" Member="KURUMSAL_PORTFOYs">
+    <Type Name="KURUMSAL_PORTFOY">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="yetkili" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hisse" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="artis_azalis" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hisse_payi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tahvil" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="anapara" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="basit_faiz" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="bilesik_faiz" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nakit_para" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BIREYSEL_PORTFOY" Member="BIREYSEL_PORTFOYs">
+    <Type Name="BIREYSEL_PORTFOY">
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ad_soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hisse" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="artis_azalis" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hisse_payi" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tahvil" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="anapara" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="basit_faiz" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="bilesik_faiz" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nakit_para" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

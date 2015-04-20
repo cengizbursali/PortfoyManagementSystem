@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Portfoy">
+  <DataContextMoniker Name="/PortfoyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7e308727-1d83-464c-ad4c-9b4b8da4d17e" absoluteBounds="3.375, 0.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/PortfoyDataContext/YONETICI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f478804-7b74-4862-b442-6168cb4b5290" absoluteBounds="3.39, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c104faac-d586-4658-8633-123ea94a4d64" absoluteBounds="2.375, 2.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PortfoyDataContext/BIREYSEL_KULLANICI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41203ae1-670a-4643-8ce7-848bdfa49c30" absoluteBounds="2.39, 2.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c779d574-881c-4741-9c22-563612cdd550" absoluteBounds="0.5, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PortfoyDataContext/KURUMSAL_KULLANICI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e350a0a-fc86-4d2d-9f3a-adeff04a8135" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce789cda-aa56-436e-a8c9-a406b265c14a" absoluteBounds="4.5, 2.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/PortfoyDataContext/KURUMSAL_PORTFOY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed061dac-139c-4723-a31c-934caa18cfeb" absoluteBounds="4.515, 3.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00a87b5e-a36d-4e67-bba0-05cf0e4edb86" absoluteBounds="0.5, 2.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/PortfoyDataContext/BIREYSEL_PORTFOY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf291e59-0ea2-4a76-9c0a-f5a924506009" absoluteBounds="0.515, 3.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

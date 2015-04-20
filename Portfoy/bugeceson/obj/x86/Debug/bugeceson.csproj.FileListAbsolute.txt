@@ -1,0 +1,15 @@
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\bin\Debug\bugeceson.exe
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\bin\Debug\bugeceson.pdb
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.girisForm.resources
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.Properties.Resources.resources
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.csproj.GenerateResource.Cache
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.exe
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.pdb
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\bin\Debug\Portfoy.mdf
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\bin\Debug\Portfoy_log.ldf
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\bin\Debug\bugeceson.exe.config
+c:\users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.kayitForm.resources
+C:\Users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.islemForm.resources
+C:\Users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.bireyselForm.resources
+C:\Users\cengiz\documents\visual studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.kurumsalForm.resources
+C:\Users\cengiz\Documents\Visual Studio 2010\Projects\bugeceson\bugeceson\obj\x86\Debug\bugeceson.csprojResolveAssemblyReference.cache
